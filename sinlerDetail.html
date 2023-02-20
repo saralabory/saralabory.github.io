@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="uk-position-relative uk-background-center-center uk-background-contain" style="background-image: url('#');" uk-height-viewport>
+  <div class="uk-position-cover uk-cover-container">
+    <video autoplay loop playsinline muted uk-cover>
+      <source src="Collab/sv%20p%20ep%20final.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="uk-position-relative uk-container uk-container-small uk-text-left uk-flex uk-flex-top uk-margin-small-left" uk-height-viewport="offset-top: true">
+    <div class="uk-section uk-section-regular uk-width-1-1 uk-light">
+      <div class="uk-flex uk-text-left uk-flex-top uk-flex-left">
+        <div class="uk-width-1-1 uk-position-top-left uk-position-fixed uk-margin-small-left">
+          <h1 class="uk-margin-small-bottom uk-text-decoration-none uk-text-secondary" ><a class="uk-text-decoration-none" href="index.html" style="color: black">SARA LABORY</a></h1>
+          <h2 class="uk-margin-small-top" style="color: black">HOSHILLA</h2>
+          <div class="uk-width-1-2@s uk-width-2-5@m">
+            <ul id="navbar" class="uk-nav uk-nav-default">
+              <li><a href="collab.html">Projets collaboratifs</a></li>
+              <li><a href="promo.html">Promotions</a></li>
+              <li><a href="perso.html">Projets personnels</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="collabDetailGallery" class="uk-flex uk-flex-wrap">
+
+  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 9:14; animation: fade; autoplay: true; autoplay-interval: 3000"  style="width: 35vw">
+
+    <ul class="uk-slideshow-items">
+      <li>
+        <img src="promotion/sinler%20round%20faces.jpeg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="promotion/sinler%20boucle.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="promotion/sinler%20ça%20shine%20collier.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="promotion/sinler%20collier%20sur%20pecs.jpg" alt="" uk-cover>
+      </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+  </div>
+  <img src="promotion/sinler%20arthur%20me%20téma%20let's%20go.jpeg" style=" width: 35vw; object-fit: cover">
+  <img src="promotion/sinler%20en%20mode%20sorcières.jpeg" style=" width: 35vw; object-fit: cover">
+  <div id="description" style="text-align: end;">
+    <h1>"INSECTOID COLLECTION" for SINLER WORLD - 2022</h1>
+    <h2 class="uk-margin-remove-right">
+      Video: ERYL <br>
+      Photos: Sara labory<br>
+      Direction artistique: Sinler, Sara Labory<br>
+      3D: Mélissa Lauret (i.ae.byl)
+    </h2>
+    <p>Pour la nouvelle collection "Insectoid collection" de Sinler World j'ai pu travailler avec elle sur une DA suivant sa vision pour un shoot promotionnel (et secondement une vidéo) mettant en avant les colliers avant de transmettre les photos à une collaboratrice 3D artiste. Par la suite les photos ont servi pour son compte Instagram, sa boutique et pour des annonces événementielles de la Britney Market.
+    </p>
+  </div>
+  <div id="videoEP">
+    <iframe id="epvideo" src="Collab/sv%20p%20ep%20final.mp4?autoplay=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="1000" height="1000" allowfullscreen uk-responsive uk-video="autoplay : false"></iframe>
+  </div>
+</div>
+</body>
+</html>

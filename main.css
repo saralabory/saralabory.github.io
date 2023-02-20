@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+#banner{
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+}
+
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    font-family: 'Gilda Display', serif;
+}
+
+#navbar a:hover{
+    color: black;
+    transform: scale(1.01);
+}
+
+#navbar{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+#homeGallery{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    right: 0;
+    position: absolute;
+
+}
+
+#homeGallery img{
+    width: 35vw;
+}
+
+#collabDetailGallery{
+    width: 70vw;
+    position: absolute;
+    right: 0;
+
+}
+#collabDetailGallery img{
+    width: 35vw;
+    object-fit: cover;
+}
+
+#collabGallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 280vh;
+    justify-content: center;
+    width: 75vw;
+    position: absolute;
+    right: 0;
+    align-items: flex-end;
+    direction: rtl;
+
+
+}
+
+#collabGallery img{
+    height: 80vh;
+    width: 35vw;
+    margin: 1vw;
+    direction: rtl;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.itemGallery img:hover{
+    transform: scale(1.05);
+}
+
+.itemGallery h2{
+    direction: ltr;
+}
+
+#promoGallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 180vh;
+    justify-content: center;
+    width: 75vw;
+    position: absolute;
+    right: 0;
+    align-items: flex-end;
+    direction: rtl;
+
+
+}
+
+#promoGallery img{
+    height: 80vh;
+    width: 35vw;
+    margin: 1vw;
+    direction: rtl;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+#persoGallery{
+    position: absolute;
+    right: 3vw;
+    width: 59vw;
+    padding: 3vw 0 3vw 0;
+}
+
+.itemGrid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin-top: 3vw;
+}
+
+.itemGrid img{
+    object-fit: cover;
+}
+
+#videoEP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vw;
+}
