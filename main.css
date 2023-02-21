@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
-
+html{
+    overflow-x: hidden;
+}
 #banner{
     height: 100vh;
     display: flex;
@@ -136,4 +138,73 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 3vw;
+}
+
+#presentation{
+    width: 100vw;
+    height:170vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#idContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75%;
+    width: 75%;
+    gap: 5vw;
+    text-justify: auto;
+    z-index: 99;
+}
+
+#cvButton{
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    border-radius: 999px;
+    transition: 0.3s;
+}
+
+#cvButton:hover{
+    transform: scale(1.1);
+}
+
+
+#idContainer p{
+    font-size: 23px;
+    margin: 0;
+}
+hr{
+    width: 75%;
+
+}
+
+#links{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+#links img{
+    height: 5vw;
+    width: 5vw;
+    transition: 0.3s;
+}
+
+#links img:hover{
+    transform: scale(1.1);
+}
+
+#background{
+    display: block;
+    position: absolute;
 }
