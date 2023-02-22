@@ -158,6 +158,7 @@ html{
     gap: 5vw;
     text-justify: auto;
     z-index: 99;
+    text-align: center;
 }
 
 #cvButton{
