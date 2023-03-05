@@ -80,8 +80,15 @@ html{
     direction: rtl;
     object-fit: cover;
     transition: 0.4s;
-}
 
+}
+.itemGallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
 .itemGallery img:hover{
     transform: scale(1.05);
 }
@@ -94,7 +101,7 @@ html{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 180vh;
+    height: 200vh;
     justify-content: center;
     width: 75vw;
     position: absolute;
